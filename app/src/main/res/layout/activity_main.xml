@@ -10,11 +10,13 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.mycalculator.MainActivity">
     <EditText
+        android:inputType="number"
         android:id="@+id/editText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:hint="Enter a number"/>
     <EditText
+        android:inputType="number"
         android:id="@+id/editText2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -75,4 +77,5 @@
         android:layout_marginRight="22dp"
         android:layout_marginEnd="22dp"
         android:onClick="onClick"/>
+
 </RelativeLayout>

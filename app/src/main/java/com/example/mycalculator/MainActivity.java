@@ -19,9 +19,9 @@ public class MainActivity extends AppCompatActivity {
     Button divide;
     String s1;
     String s2;
-    int num1;
-    int num2;
-    Integer Results;
+    float num1;
+    float num2;
+    float Results;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
